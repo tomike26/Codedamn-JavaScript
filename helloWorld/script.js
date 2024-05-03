@@ -52,3 +52,8 @@ console.log(Friends)
 
 addMyFriends('tomi');
 addMyFriends('stella');
+
+//For loop
+for (i = 0; i < 10; i++){
+    console.log(i)
+}
