@@ -22,6 +22,9 @@ let school= "Funaab";
 
 // console.log(ageGap(500))
 
+
+//TASK 1
+
 // function testSize(num) {
 //   // Only change code below this line
 // if(num < 5){
@@ -82,3 +85,23 @@ const myObject = {
     'job' : 'developer'
 }
 console.log(myObject['name'])
+
+
+//TASK 2
+/* In this lab, you have to build a JS object.
+
+This object should be named 'myOwnObject'
+You should have a property called myAge which should be a number
+You should have a property called myName which should be a string
+You should have another property call myFriend which should be an object that should include myFriendAge as a property with their age as a number
+*/
+//code:
+// write your code below
+
+const myOwnObject= {
+'myAge': 3,
+'myName':'Tomike',
+myFriend : { 
+    'myFriendAge' : 3,
+}
+ }
