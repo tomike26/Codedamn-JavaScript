@@ -74,3 +74,11 @@ for (let i = 0; i <20; i++){
 
 
 console.log(evenNumbers, oddNumbers);
+
+
+//object
+const myObject = {
+    'name' : 'Tomike',
+    'job' : 'developer'
+}
+console.log(myObject['name'])
