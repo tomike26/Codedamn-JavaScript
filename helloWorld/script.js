@@ -1,6 +1,6 @@
-let age = 23;
-let name = "tomike";
-let school= "Funaab";
+// let age = 23;
+// let name = "tomike";
+// let school= "Funaab";
 
 
 
@@ -63,28 +63,28 @@ let school= "Funaab";
 
 
 //how to use break and continue
-let evenNumbers = [];
-let oddNumbers = [];
+// let evenNumbers = [];
+// let oddNumbers = [];
 
 
-for (let i = 0; i <20; i++){
-    if(i % 2 === 0){
-        evenNumbers.push(i);
-    } else{
-        oddNumbers.push(i);
-    }
-}
+// for (let i = 0; i <20; i++){
+//     if(i % 2 === 0){
+//         evenNumbers.push(i);
+//     } else{
+//         oddNumbers.push(i);
+//     }
+// }
 
 
-console.log(evenNumbers, oddNumbers);
+// console.log(evenNumbers, oddNumbers);
 
 
 //object
-const myObject = {
-    'name' : 'Tomike',
-    'job' : 'developer'
-}
-console.log(myObject['name'])
+// const myObject = {
+//     'name' : 'Tomike',
+//     'job' : 'developer'
+// }
+// console.log(myObject['name'])
 
 
 //TASK 2
@@ -98,10 +98,21 @@ You should have another property call myFriend which should be an object that sh
 //code:
 // write your code below
 
-const myOwnObject= {
-'myAge': 3,
-'myName':'Tomike',
-myFriend : { 
-    'myFriendAge' : 3,
-}
+// const myOwnObject= {
+// 'myAge': 3,
+// 'myName':'Tomike',
+// myFriend : {
+//     'myFriendAge' : 3,
+// }
+//  }
+
+
+ //Template literals
+ const person = {
+    name :'joe',
+    age:25
  }
+
+ const aboutMeLatest = `My name is  ${person.name} and I am ${person.age} years old`
+
+ console.log(aboutMeLatest)
